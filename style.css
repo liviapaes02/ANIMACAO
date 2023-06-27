@@ -1,0 +1,28 @@
+.elem {
+    
+    background-image: url(coração.jpg);
+    
+    width: 658px;
+    
+    height: 690px;
+    
+    animation: moveToRight 2s linear infinite;
+    
+    animation-delay: 750ms;
+    
+    }
+    
+    @keyframes moveToRight {
+
+    
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+    }
+    
+    }
